@@ -1,6 +1,6 @@
 # 02-Calculator-V2
 
-![Logo]([https://github.com/Mendoza727/02-Calculator-V2/blob/main/assets/icon-calculator.png]) <!-- Reemplaza con la URL de tu logo si tienes uno -->
+![Logo](https://github.com/Mendoza727/02-Calculator-V2/blob/main/assets/icon-calculator.png) <!-- Reemplaza con la URL de tu logo si tienes uno -->
 
 ## Descripción
 
