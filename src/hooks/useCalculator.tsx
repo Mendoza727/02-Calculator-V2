@@ -112,7 +112,7 @@ export const useCalculator = () => {
     const calculateResult = () => {
         const num1 = Number(number);
         const num2 = Number(prevNumber);
-
+        // opetations
         switch (lastOperation.current) {
             case Operator.add:
                 setNumber(`${num1 + num2}`);
