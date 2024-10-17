@@ -12,16 +12,23 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pal.cat.game"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon-calculator.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pal.cat.game"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "822977ed-9c19-41c1-866a-9528e00cfb96"
+      }
     }
   }
 }
