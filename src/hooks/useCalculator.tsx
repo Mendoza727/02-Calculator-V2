@@ -29,10 +29,13 @@ export const useCalculator = () => {
   }, [number]);
 
   const cleanCalculator = () => {
-    setNumber("0");
-    setPrevNumber("0");
-    lastOperation.current = undefined;
-    setFormula("");
+    if ( number !== '0' && prevNumber !== '0') {
+        setNumber("0");
+        setPrevNumber("0");
+        lastOperation.current = undefined;
+        setFormula("0");
+    }
+
   };
 
   const deleteLastDigit = () => {
